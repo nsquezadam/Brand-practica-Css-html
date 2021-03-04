@@ -2,7 +2,7 @@
 
 ## RESUMEN
 
-Tienda con metodos de pago Paypal. Curso  PLaty Css-Htmml  
+Tienda con metodos de pago Paypal. Curso  PLatzy Css-Htmml  
 
 ### Tecnologias
 
