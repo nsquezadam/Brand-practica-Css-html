@@ -1,0 +1,41 @@
+@media (max-width: 600px) { /* 600px es solo un ejemplo */
+  .main-section{
+    margin-top: 10vh;
+    padding:3%;
+    height: auto;
+  }
+  .products{
+    display: inherit;
+    height: auto;
+    padding:5%;
+    
+    
+    }
+  .product{
+    margin-top: 3vh;
+   
+
+  }
+  .product .content{
+    height: auto;
+    padding: 10px;
+    margin-top: auto;
+  }
+  .container-benefits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3px;
+   
+  }
+  .container-users{
+    flex-direction: column;
+    align-items: center;
+
+    
+  }
+  .user{
+    width: 220px;
+  }
+
+}
