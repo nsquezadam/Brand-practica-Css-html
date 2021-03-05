@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="./src//css/animation.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet"> 
-    <title>Productos</title>
+    <title>Venta</title>
   </head>
 
   <body>
@@ -20,6 +20,7 @@
 <header>
     <nav class="fadeInDown">
       <div class="nav-img-logo">
+        
         <a href="/index.html"><img src="./src/images/logo.png" alt="logo" /></a>
       </div>
       <ul>
@@ -30,45 +31,32 @@
       </ul>
     </nav>
   </header>
-  <main class="main-Product">
-    <h2>Productos</h2>
-    <div class="container-product">  
-    <div class="row">
-      <div class="text-Container col-8">
-        <h4>Gato Bro</h4>
-        <p>Miles de productos hay en el mercado, pero nada como una caja con
-          gatitos</h3>
-         </div>
-      <div class="col-4">
-       <div class="container_imgProduct">
+  <main class="main-sell">
+   <div class="row">
+     <div class="col-4">
+      <div class="container_imgProductSell">
         <img src="./src/images/box1.svg" alt="box1">
        </div>
+       <div class="text_Container-sell">
+       <h3>Producto</h3>
+       <p>Miles de productos hay en el mercado, pero nada como una caja con
+        gatitos</p>
       </div>
-    </div>
-    <div class="row">
-
-      <div class="col-4">
-        <div class="container_imgProduct">
-        <img src="./src/images/box2.svg" alt="box2">
-      </div>
-    </div>
-        <div class="text-Container col-8"> 
-          <h4>Gato Ingeniero</h4>
-          <p>Miles de productos hay en el mercado, pero nada como una caja con
-          gatitos</h3>
-      </div>
-    </div>
-    <div class="row">
-      <div class="text-Container col-8"> 
-        <h4>Gato bello durmiente</h4>
-        <p>Miles de productos hay en el mercado, pero nada como una caja con
-          gatitos</h3>
-      </div>
-      <div class="col-4">
-        <div class="container_imgProduct"><img src="./src/images/box3.svg" alt="box2"></div>
-      </div>
-      </div>
-  </div>
+     </div>
+     <div class="col-8">
+       <div class="module-pay">
+       <form action="" >
+         <label for="name">Nombre</label>
+         <input type="text" name="name" id="name" placeholder="">
+         <label for="phone">Telefono</label>
+         <input type="tel" name="phone" id=phone">
+         <label for="mail">Correo Electrónico</label>
+         <input type="email" name="mail" id="mail">
+         <button class="btn-productSell" id="btnPay">Confirmar pago</button>
+        </form>
+       </div>
+     </div>
+   </div>
   </main>
     <footer>
           <a href="#">Termino y condiciones</a>

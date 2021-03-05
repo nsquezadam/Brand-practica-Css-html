@@ -43,4 +43,32 @@
     height: auto;
   }
 
+  /* -----------form */
+  form{
+   width: 80%;
+  }
+  /* ---------------------------pag venta */
+
+  .container_imgProductSell{
+    justify-content: center;
+   
+    
+  }
+  .container_imgProductSell img{
+    max-width:300px ;
+    margin-right: 40px;
+    box-shadow: var(--box);
+  }
+  .module-pay{
+   display: flex;
+   justify-content: center;
+   max-width: 300px;
+   padding: 3px;
+
+  }
+  .text_Container-sell{
+    max-width: 300px;
+  }
+  
+  
 }
