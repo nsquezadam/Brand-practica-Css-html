@@ -1,0 +1,33 @@
+body{
+  background-color: var(--dark-blue);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.container-Exito{
+  align-self: center;
+  width: 80vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  color: var(--dark-yelow);
+}
+.container-Exito img{
+  width: 30%;
+}
+.container-Exito a{
+  color: var(--ligth-yelow);
+  text-decoration: none;
+  font-size: 15px;
+}
+.container-Exito a:hover{
+  color: var(--light-blue);
+ 
+}
+.container-Exito a:active{
+  color: var(--ligth-yelow);
+  
+}

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 :root{
   /* colors */
 --dark-blue:#28527A;
@@ -186,6 +187,7 @@ justify-content: center;
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-bottom: 15vh;
 }
 .container-comentsUsers h2{
  font-size: 24px;
@@ -196,6 +198,7 @@ padding: 10px;
 display: flex;
 flex-direction: row;
 justify-content: center;
+
 
 
 }
@@ -273,6 +276,7 @@ footer  a:hover{
 .container_form h2{
   font-size: 24px;
 }
+
 form{
   display: flex;
   flex-direction: column;
@@ -397,4 +401,40 @@ form{
   color: var(--dark-blue);
   
   
+}
+/* -----------------------preguntas frecuentes faqs */
+.main-faq{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+ 
+  width: 80vw;
+  height: 91vh;
+  padding: 20px;
+  color: var(--dark-blue);
+}
+.main-faq h2{
+  text-align: center;
+  margin-bottom: 7vh;
+}
+
+/* -----------------------terminos  y condiciones */
+
+.main-term-conditions{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  width: 80vw;
+  height: 80vh;
+  padding: 20px;
+  color: var(--dark-blue);
+  margin-top: 10vh; 
+}
+..main-term-conditions h2{
+  text-align: center;
+  margin-bottom: 3vh;
+ 
 }

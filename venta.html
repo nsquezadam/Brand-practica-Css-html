@@ -25,14 +25,14 @@
       </div>
       <ul>
         <li><a href="./producto.html">Producto y Descripción</a></li>
-        <li><a href="#">Faqs</a></li>
+        <li><a href="./faq.html">Faqs</a></li>
         <li><a href="./contacto.html">Contacto</a></li>
         
       </ul>
     </nav>
   </header>
   <main class="main-sell">
-   <div class="row">
+   <div class="cont-sell row">
      <div class="col-4">
       <div class="container_imgProductSell">
         <img src="./src/images/box1.svg" alt="box1">
@@ -45,27 +45,23 @@
      </div>
      <div class="col-8">
        <div class="module-pay">
-       <form action="" >
+       <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BBGKHRLMVDSE4" method="POST" >
          <label for="name">Nombre</label>
-         <input type="text" name="name" id="name" placeholder="">
+         <input type="text" name="name" id="name" placeholder="" value="" required>
          <label for="phone">Telefono</label>
-         <input type="tel" name="phone" id=phone">
-         <label for="mail">Correo Electrónico</label>
-         <input type="email" name="mail" id="mail">
-         <button class="btn-productSell" id="btnPay">Confirmar pago</button>
+         <input type="text" name="phone" id=phone" value="">
+         <label for="email">Correo Electrónico</label>
+         <input type="email" name="email" id="email" value="" required>
+         <button type="submit" class="btn-productSell" id="btnPay" name="submit">Confirmar pago</button>
         </form>
        </div>
      </div>
    </div>
   </main>
     <footer>
-          <a href="#">Termino y condiciones</a>
-          <a href="#">mail@mail.com</a>
-      
-        
-       
-  
-      
+      <a href="./termAndConditions.html">Termino y condiciones</a>
+          <a href="mailto:mail@mail.com">mail@mail.com</a>
+
     </footer>
     <script src="./src/index.js"></script>
   </body>

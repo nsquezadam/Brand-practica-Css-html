@@ -42,13 +42,32 @@
   .main-Product{
     height: auto;
   }
+  .container-product{
+    margin-bottom: 17.7vh;
+
+  }
 
   /* -----------form */
+  .container_form{
+    height: 50vh;
+    width: 70vw;
+  }
+  .container_form form {
+    width: 100%;
+  }
+  .container_form form  input{
+    width: 100%;
+  }
   form{
    width: 80%;
   }
-  /* ---------------------------pag venta */
 
+
+  /* ---------------------------pag venta */
+ .cont-sell {
+   flex-direction: column;
+
+ }
   .container_imgProductSell{
     justify-content: center;
    
