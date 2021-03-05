@@ -103,6 +103,13 @@ justify-content: center;
 }
 .image-content{
   text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-content img{
+ width: 100%;
 }
 .main-botton{
   background-color: var(--dark-blue);
@@ -299,9 +306,29 @@ footer  a:hover{
 
 /* product */
 .main-Product{
-  height: 95.8vh;
-  0
+  height: auto;
+  color: var(--dark-blue);
+  text-align: center;
  
    }
+   .main-Product h2{
+     margin-top: 10vh;
+     
 
+   }
 
+.container_imgProduct{
+  width:100% ;
+  align-items: center;
+}
+.container_imgProduct img{
+  width:70% ;
+  box-shadow: var(--box);
+}
+.text-Container{
+ 
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
