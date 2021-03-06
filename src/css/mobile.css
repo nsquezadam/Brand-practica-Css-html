@@ -66,6 +66,8 @@
   /* ---------------------------pag venta */
  .cont-sell {
    flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
  }
   .container_imgProductSell{
@@ -75,14 +77,17 @@
   }
   .container_imgProductSell img{
     max-width:300px ;
-    margin-right: 40px;
+   
     box-shadow: var(--box);
   }
   .module-pay{
    display: flex;
    justify-content: center;
-   max-width: 300px;
+   align-items: center;
+   width: 100%;
+  
    padding: 3px;
+
 
   }
   .text_Container-sell{
